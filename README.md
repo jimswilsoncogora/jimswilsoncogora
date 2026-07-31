@@ -157,21 +157,6 @@ Everything below is production software running inside a UK healthcare media gro
 
 ---
 
-### 📊 By The Numbers
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=jimswilsoncogora&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=2F81F7&icon_color=2F81F7" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimswilsoncogora&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=2F81F7" alt="languages" />
-
-<br/>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jimswilsoncogora&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="activity graph" />
-
-</div>
-
----
-
 <div align="center">
 
 ### 💬 Get In Touch
@@ -193,17 +178,9 @@ SETUP NOTES (delete this block before committing if you like)
    Name it exactly your GitHub username. Tick "Add a README file".
    It must be Public for the profile card to appear.
 
-2. FIND & REPLACE
-   YOUR_USERNAME  -> your handle (appears ~8 times)
-   YOUR_LINKEDIN  -> your LinkedIn slug
-
-3. THEME OPTIONS
-   Swap theme=tokyonight for: dracula, radical, merko, gruvbox,
-   catppuccin_mocha, transparent, or github_dark.
-
-5. A NOTE ON THIRD-PARTY IMAGES
-   The stats, streak and typing SVGs are rendered by community-run
-   Vercel apps. They occasionally rate-limit or go down. If uptime
-   matters to you, self-host github-readme-stats on your own Vercel
-   account and point the URLs there instead.
+2. A NOTE ON THIRD-PARTY IMAGES
+   The banner, footer and typing SVGs are rendered by community-run
+   Vercel apps (capsule-render, readme-typing-svg). They occasionally
+   rate-limit or go down. If uptime matters to you, self-host them on
+   your own Vercel account and point the URLs there instead.
 -->

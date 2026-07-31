@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 31/07/2026
+
+### Removed
+
+- Snake animation section from the README, including the light/dark `<picture>` element
+- `.github/workflows/snake.yml` and the now-empty `.github/` directory
+- "By The Numbers" section: GitHub stats card, top-languages card and contribution activity graph
+- Setup notes for the snake and for the theme options, the latter no longer applying to anything (remaining steps renumbered)
+
+### Changed
+
+- Third-party image note now refers to the banner, footer and typing SVGs rather than the removed stats cards
+
 ## [1.2.0] - 31/07/2026
 
 ### Added
