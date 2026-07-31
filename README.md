@@ -161,12 +161,12 @@ Everything below is production software running inside a UK healthcare media gro
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=2F81F7&icon_color=2F81F7" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=2F81F7" alt="languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=jimswilsoncogora&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&title_color=2F81F7&icon_color=2F81F7" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jimswilsoncogora&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=2F81F7" alt="languages" />
 
 <br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="activity graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=jimswilsoncogora&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="activity graph" />
 
 </div>
 
