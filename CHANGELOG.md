@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 31/07/2026
+
+### Added
+
+- `.github/workflows/snake.yml` — daily (03:00 UTC) and manually triggerable job that renders the contribution snake with `Platane/snk/svg-only@v3` and publishes `snake.svg` / `snake-dark.svg` to the `output` branch
+- Light/dark `<picture>` element for the snake so the dark variant is used under `prefers-color-scheme: dark`
+
+### Changed
+
+- Setup notes rewritten: the inline workflow YAML is replaced with first-run instructions (workflow permissions, manual trigger, `output` branch) and a note that only public contributions are counted
+
+### Removed
+
+- "Requires the GitHub Action below" caveat under the snake, now that the workflow ships with the repo
+
 ## [1.1.0] - 31/07/2026
 
 ### Added

@@ -175,10 +175,12 @@ Everything below is production software running inside a UK healthcare media gro
 ### 🐍 Watch It Eat My Commits
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake.svg" />
+    <img src="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake.svg" alt="snake eating my contribution graph" />
+  </picture>
 </div>
-
-> Requires the GitHub Action below — see the setup notes at the bottom of this file.
 
 ---
 
@@ -208,34 +210,20 @@ SETUP NOTES (delete this block before committing if you like)
    YOUR_LINKEDIN  -> your LinkedIn slug
 
 3. ENABLE THE SNAKE ANIMATION
-   Create .github/workflows/snake.yml with the following:
+   The workflow already exists at .github/workflows/snake.yml. It runs
+   daily at 03:00 UTC and can be triggered manually.
 
-   name: Generate Snake
-   on:
-     schedule:
-       - cron: "0 0 * * *"
-     workflow_dispatch:
-   permissions:
-     contents: write
-   jobs:
-     build:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: Platane/snk@v3
-           id: snake-gif
-           with:
-             github_user_name: ${{ github.repository_owner }}
-             outputs: |
-               dist/snake.svg
-               dist/snake-dark.svg?palette=github-dark
-         - uses: crazy-max/ghaction-github-pages@v4
-           with:
-             target_branch: output
-             build_dir: dist
-           env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+   To get the first render:
+     a. Push this repo to GitHub.
+     b. Settings -> Actions -> General -> Workflow permissions:
+        set "Read and write permissions", then Save.
+     c. Actions tab -> "Generate Snake" -> Run workflow.
+     d. The job creates an "output" branch containing snake.svg and
+        snake-dark.svg. The README points at raw.githubusercontent.com
+        on that branch, so the images appear once the job succeeds.
 
-   Then run it once manually from the Actions tab.
+   The snake eats your PUBLIC GitHub contributions only. Work pushed to
+   Bitbucket or private repos will not appear in it.
 
 4. THEME OPTIONS
    Swap theme=tokyonight for: dracula, radical, merko, gruvbox,
