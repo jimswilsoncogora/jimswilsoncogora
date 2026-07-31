@@ -172,18 +172,6 @@ Everything below is production software running inside a UK healthcare media gro
 
 ---
 
-### 🐍 Watch It Eat My Commits
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake.svg" />
-    <img src="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake.svg" alt="snake eating my contribution graph" />
-  </picture>
-</div>
-
----
-
 <div align="center">
 
 ### 💬 Get In Touch
@@ -209,23 +197,7 @@ SETUP NOTES (delete this block before committing if you like)
    YOUR_USERNAME  -> your handle (appears ~8 times)
    YOUR_LINKEDIN  -> your LinkedIn slug
 
-3. ENABLE THE SNAKE ANIMATION
-   The workflow already exists at .github/workflows/snake.yml. It runs
-   daily at 03:00 UTC and can be triggered manually.
-
-   To get the first render:
-     a. Push this repo to GitHub.
-     b. Settings -> Actions -> General -> Workflow permissions:
-        set "Read and write permissions", then Save.
-     c. Actions tab -> "Generate Snake" -> Run workflow.
-     d. The job creates an "output" branch containing snake.svg and
-        snake-dark.svg. The README points at raw.githubusercontent.com
-        on that branch, so the images appear once the job succeeds.
-
-   The snake eats your PUBLIC GitHub contributions only. Work pushed to
-   Bitbucket or private repos will not appear in it.
-
-4. THEME OPTIONS
+3. THEME OPTIONS
    Swap theme=tokyonight for: dracula, radical, merko, gruvbox,
    catppuccin_mocha, transparent, or github_dark.
 
