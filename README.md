@@ -175,7 +175,7 @@ Everything below is production software running inside a UK healthcare media gro
 ### 🐍 Watch It Eat My Commits
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/jimswilsoncogora/jimswilsoncogora/output/snake.svg" alt="snake animation" />
 </div>
 
 > Requires the GitHub Action below — see the setup notes at the bottom of this file.
