@@ -14,13 +14,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jim%20Wilson&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Director%20of%20Technology%20%E2%80%A2%20WordPress%20Engineer%20%E2%80%A2%20Data%20Protection%20Officer&descSize=16&descAlignY=54" width="100%" alt="banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&lines=Building+for+healthcare+media+since+the+dial-up+era;PHP+%2F+WordPress+%2F+MySQL+%2F+BigQuery;Bespoke+plugins+at+customwpplugins.com;Turning+legacy+forums+into+modern+platforms" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&lines=Building+for+healthcare+media+since+the+dial-up+era;PHP+%2F+WordPress+%2F+MySQL+%2F+BigQuery;Ad+tech%2C+analytics+pipelines+and+event+platforms;RAG+chatbots+grounded+in+your+own+content;Turning+legacy+forums+into+modern+platforms" alt="typing" />
 
 <br/>
 
-[![Website](https://img.shields.io/badge/Custom_WP_Plugins-1a1a2e?style=for-the-badge&logo=wordpress&logoColor=21759B)](https://customwpplugins.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=2F81F7&label=VISITORS)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jimswilson)
+[![Profile Views](https://komarev.com/ghpvc/?username=jimswilsoncogora&style=for-the-badge&color=2F81F7&label=VISITORS)](https://github.com/jimswilsoncogora)
 
 </div>
 
@@ -69,8 +68,17 @@ final class Jim extends Human implements CaffeineDependent
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=flat-square&logo=composer&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**AI & Agents**
+
+![Anthropic](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_Embeddings-412991?style=flat-square&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-2F81F7?style=flat-square)
 
 **Data & Analytics**
 
@@ -78,6 +86,8 @@ final class Jim extends Human implements CaffeineDependent
 ![Google Analytics](https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=googleanalytics&logoColor=white)
 ![Google Tag Manager](https://img.shields.io/badge/GTM-246FDB?style=flat-square&logo=googletagmanager&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Google Ad Manager](https://img.shields.io/badge/Google_Ad_Manager-34A853?style=flat-square&logo=googleadmob&logoColor=white)
+![Dotdigital](https://img.shields.io/badge/Dotdigital-005EB8?style=flat-square)
 
 **Infrastructure**
 
@@ -101,12 +111,49 @@ final class Jim extends Human implements CaffeineDependent
 
 ### 📌 Selected Work
 
+Everything below is production software running inside a UK healthcare media group — mostly framework-free PHP, because it has to be maintainable by whoever comes next.
+
+**🤖 AI & Automation**
+
 | Project | What it is | Stack |
 |:--|:--|:--|
-| **Custom WP Plugins** | Bespoke plugin development studio — the awkward requirements other people say can't be done | `PHP` `WordPress` |
-| **Forum Modernisation** | A full phpBB → WordPress/bbPress migration with legacy URL preservation and custom reply, preview and media features | `PHP` `bbPress` `Apache` |
-| **Publisher Analytics** | GA4 → BigQuery reporting for ad impressions, session behaviour and audience suppression modelling | `SQL` `BigQuery` |
-| **Ad Ops Tooling** | Google Ad Manager line item logging and diagnostics across a multi-title publishing portfolio | `PHP` `GAM` `GPT` |
+| **Warehouse Chat Assistant** | Natural-language querying over BigQuery datasets across eight configurable systems, with per-user access control, saved questions and TOTP 2FA | `PHP` `BigQuery` `Claude API` |
+| **Grounded Intranet Chatbot** | Self-hosted WordPress RAG plugin that indexes pages, posts and PDFs — embeddings for retrieval, Claude for answers, no third-party backend or usage-billing layer | `PHP` `OpenAI` `Claude API` |
+| **NHS Practice Intelligence** | Search and analysis over UK GP practice data — QOF prevalence, demographics, prescribing, appointment and vaccination metrics — with natural-language search on top | `PHP` `MySQL` `Claude API` |
+| **Editorial AI Tooling** | Newsroom plugins: RSS headline → drafted article generation across nine languages, and a zero-dependency article text-to-speech player | `PHP` `WordPress` |
+| **Agent Plumbing** | Project-scoped MCP servers giving coding agents direct, sandboxed database access | `MCP` `MySQL` |
+
+**📊 Data, Ad Ops & Analytics**
+
+| Project | What it is | Stack |
+|:--|:--|:--|
+| **Ad Impression Tracker** | Client-side GPT `slotRenderEnded` collection across 13 publisher sites, centralised into a dashboard with KPI cards and time-series charts | `PHP` `MySQL` `GAM` |
+| **Line Item Attribution** | Per-user logging of which Google Ad Manager line items were actually served on each page view, for campaign exposure analysis | `PHP` `GAM` |
+| **Audience Fingerprinting** | Reading-behaviour platform aggregating millions of tracked events across 11 publisher titles, sliced by user, term, geography and site, with BigQuery for long-term storage | `PHP` `MariaDB` `BigQuery` |
+| **Integration Monitoring** | API endpoint health dashboard with AES-256 encrypted credential storage, response-time history, IP allow-listing, plus live ESP campaign reporting endpoints | `PHP` `MySQL` |
+| **Ad Targeting Bridge** | Pushes ESP contact fields and on-site interest profiles into GAM key/value targeting, gated behind TCF consent | `PHP` `GAM` `Dotdigital` |
+
+**🎪 Event Platforms**
+
+| Project | What it is | Stack |
+|:--|:--|:--|
+| **Exhibition Management** | Bespoke replacement for a third-party exhibitor SaaS — custom front controller, raw PDO, idempotent migration runner, transactional email | `PHP` `MySQL` |
+| **Delegate PWA** | Delegate-facing progressive web app extending Swoogo, with JWT auth, web push and a Vite-built frontend | `Slim 4` `MariaDB` `JS` |
+| **Event Check-in** | Offline-capable check-in PWA over a cached OAuth proxy, with live checked-in lists, badge views and search | `PHP` `PWA` |
+| **Badge Scanner** | Camera QR scanning for exhibitor stands — duplicate detection, live dashboards, CSV export and BigQuery sync | `PHP` `MySQL` `BigQuery` |
+| **Awards Judging** | Category, criteria and entrant management with scoped judge scoring and attachment handling | `PHP` `MySQL` |
+
+**🔌 WordPress, Forums & Compliance**
+
+| Project | What it is | Stack |
+|:--|:--|:--|
+| **Forum Modernisation** | A full phpBB → WordPress/bbPress migration with legacy URL preservation, plus a two-phase phpBB upgrade tool using bulk copy and delta sync for a near-zero-downtime cutover | `PHP` `bbPress` `Apache` |
+| **Moderation Suite** | Front-end moderation for pending users, pending posts and anonymous posting, with deliberate query-cost tuning for a large, long-lived forum | `PHP` `bbPress` |
+| **Preference Centre** | Consent and subscription management across publication brands, writing back to the ESP with second-chance unsubscribe capture and reporting | `PHP` `Dotdigital` |
+| **Retention Automation** | Scheduled deletion of dormant accounts based on real last-login data, with content reassignment and per-run caps — data minimisation actually implemented | `PHP` `WordPress` |
+| **Registration Verification** | GMC registration checking via API and bulk CSV import, for healthcare professional verification | `PHP` `MySQL` |
+
+<sub>Also built: a 360-degree review platform with AI-generated summaries, a visual team work planner, a live threat map running on Cloudflare Workers, regulator register scrapers, and a long tail of single-purpose WordPress plugins.</sub>
 
 ---
 
